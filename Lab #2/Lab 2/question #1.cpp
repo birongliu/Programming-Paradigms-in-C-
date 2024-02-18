@@ -1,9 +1,3 @@
-//
-//  main.cpp
-//  Lab 2
-//
-//  Created by Bi Rong Liu on 2/17/24.
-//
 /**
  Suppose x, y, and z are int variables and ch is a char variable. Consider the following input: 78 86 18 #42 &
 
