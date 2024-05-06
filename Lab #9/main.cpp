@@ -11,7 +11,6 @@
 #include "patientType.hpp"
 #include "array"
 #include <fstream>
-#include "vector"
 
 /*
 In this exercise, you will design various classes and write a program to computerize the billing system of a hospital.
