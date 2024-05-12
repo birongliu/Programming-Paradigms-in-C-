@@ -79,12 +79,14 @@ double calucateScore(string studentAnswers, char* &answerKeys, int answerKeySize
             result+=2;
         } else if(studentAnswers[i] != answerKeys[i]) {
             result-=1;
+        } else if(studentAnswers[i] == ' ') {
+            result+=0;
         }
     }
     return result;
 }
 char calculateGrade(double score) {
-    double percentage = (double)score / 40 * 100; // Max score is 40
+    double percentage = score / 40 * 100;
     if (percentage >= 90) return 'A';
     if (percentage >= 80) return 'B';
     if (percentage >= 70) return 'C';
